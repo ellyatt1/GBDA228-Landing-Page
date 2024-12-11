@@ -2,7 +2,7 @@
 <html lang="en-CA">
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Andrew Ellyatt's Portfolio</title>
+    <title>Andrew Ellyatt's Portfolio Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -47,9 +47,10 @@
       .contentsofsite {
         max-width: 1440px;
         min-width: 1440px;
+        max-height: 1024;
         margin: auto;
         padding: 0px 0px;
-          overflow: hidden;
+        overflow: hidden;
       }
 
       .navbar {
@@ -97,10 +98,9 @@
     <style>
       .column1 {
         width: 535px;
-        height: 938px;
+        height: 400px;
         text-align: center;
-   
-        margin: auto
+      margin: auto;
 
       }
 
@@ -114,7 +114,8 @@
         padding: 8px 0px;
         border-radius: 30px;
         display: inline-block;
-          border: 2px solid black;
+            border: 2px solid black;
+        
       }
       
           .column1 a:hover {
@@ -133,15 +134,24 @@
       }
         
       
+.backbuttonspace {
+        width: 1440px;
+        height: 206px;
+        position: relative;
+        float: left;
 
+      }
     
 
       .dot {
-        height: 534px;
-        width: 534px;
+  height: 581px;
+        width: 1310px;
         background-color: #0077FF;
         border-radius: 50%;
         display: inline-block;
+        margin-top: 64px;
+        margin-left: 64px;
+        margin-right: 64px;
       }
     </style>
   </head>
@@ -160,17 +170,20 @@
 
       <!--Left Column-->
       <div class="column1">
-        <span class="dot" style="margin-top: -267"></span>
-        <h1 style="margin-top: 34px; margin-bottom: -32px">
+      
+        <h1 style="margin-top: 192px; margin-bottom: -32px">
           Andrew Ellyatt
         </h1>
         <h3 style="margin-bottom: 84px; width">Welcome to my portfolio!</h3>
         <!--Left Column Links-->
         <a href="#" style="margin-bottom: 16px; width: 535px">Start Here!</a> <br>
         <a href="#" style="background: white; color: black; border: 3px solid black; width: 313px; display-inline: block;">Contact Me</a>
-        <span class="dot" style="margin-top: 129"></span>
+     
       </div>
-    
+     <div class="backbuttonspace" style="position: relative;">
+        <span class="dot" style="position: absolute; z-index: 1;"></span>
+       
+      </div>
 
 
 
